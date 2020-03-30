@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="simpleCalculator.MainPage">
+    
+    <StackLayout Margin="20" >
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+                
+            <BoxView Color="Black" Grid.Row="0" Grid.Column="0"/>
+            <Label x:Name="Txtdisplay" Text="0" HorizontalTextAlignment="End" VerticalTextAlignment="Center"
+                   TextColor="White" FontSize="30" Grid.Row="0" Grid.Column="0" Padding="5"/>
+            <Entry  Grid.Row="0" Grid.Column="0"/>
+            
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+        
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="clear" Grid.Row="0" Grid.Column="0" Text="C" FontSize="25"
+                BackgroundColor="Gray" Clicked="clear_Clicked"/>
+
+            <Button x:Name="btnPM" Grid.Row="0" Grid.Column="1" Text="+/-" FontSize="25" 
+                BackgroundColor="Gray" Clicked="btnPM_Clicked"/>
+
+            <Button x:Name="btnMod" Grid.Row="0" Grid.Column="2" Text="%" FontSize="25"
+                BackgroundColor="Gray" Clicked="btnMod_Clicked"/>
+
+            <Button x:Name="operation" Grid.Row="0" Grid.Column="3" Text="div" 
+                BackgroundColor="Goldenrod"  TextColor="White"  FontSize="25" 
+                Clicked="operation_Clicked"/>
+
+            <Button x:Name="btn7" Grid.Row="1" Grid.Column="0" Text="7" FontSize="25" 
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+
+            <Button x:Name="btn8" Grid.Row="1" Grid.Column="1" Text="8" FontSize="25" 
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+
+            <Button x:Name="btn9" Grid.Row="1" Grid.Column="2" Text="9" FontSize="25" 
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+
+            <Button x:Name="operation1" Grid.Row="1" Grid.Column="3" Text="X"
+                BackgroundColor="Goldenrod" TextColor="White" FontSize="25" 
+                Clicked="operation_Clicked"/>
+
+            <Button x:Name="btn4" Grid.Row="2" Grid.Column="0" Text="4" FontSize="25" 
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+            <Button x:Name="btn5" Grid.Row="2" Grid.Column="1" Text="5" FontSize="25" 
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+            <Button x:Name="btn6" Grid.Row="2" Grid.Column="2" Text="6" FontSize="25" 
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+            <Button x:Name="operation2" Grid.Row="2" Grid.Column="3" Text="-" 
+                BackgroundColor="Goldenrod" TextColor="White" FontSize="25"  
+                Clicked="operation_Clicked"/>
+
+            <Button x:Name="btn3" Grid.Row="3" Grid.Column="0" Text="3" FontSize="25" 
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+            <Button x:Name="btn2" Grid.Row="3" Grid.Column="1" Text="2" FontSize="25" 
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+            <Button x:Name="btn1" Grid.Row="3" Grid.Column="2" Text="1" FontSize="25"
+                BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+            <Button x:Name="operation3" Grid.Row="3" Grid.Column="3" Text="+" 
+                BackgroundColor="Goldenrod" TextColor="White" FontSize="25" 
+                Clicked="operation_Clicked"/>
+        </Grid>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btn0" Grid.Row="0" Grid.Column="0" Text="0" 
+                 FontSize="25" BackgroundColor="LightGray" 
+                Clicked="btn7_Clicked"/>
+            <Button x:Name="btn" Grid.Row="0" Grid.Column="1" Text="." FontSize="25" 
+                    BackgroundColor="LightGray" Clicked="btn7_Clicked"/>
+            <Button x:Name="btnResult" Grid.Row="0" Grid.Column="2" Text="=" 
+                    BackgroundColor="Goldenrod" TextColor="White"  FontSize="25" 
+                    Clicked="btnResult_Clicked"/>
+
+        </Grid>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,14 @@
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\simpleCalculator.csprojAssemblyReference.cache
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\simpleCalculator.AssemblyInfoInputs.cache
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\simpleCalculator.AssemblyInfo.cs
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\bin\Debug\netstandard2.0\simpleCalculator.deps.json
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\bin\Debug\netstandard2.0\simpleCalculator.dll
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\bin\Debug\netstandard2.0\ref\simpleCalculator.dll
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\bin\Debug\netstandard2.0\simpleCalculator.pdb
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\simpleCalculator.dll
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\ref\simpleCalculator.dll
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\simpleCalculator.pdb
+C:\Users\salsabil\source\repos\simpleCalculator\simpleCalculator\obj\Debug\netstandard2.0\simpleCalculator.csproj.CoreCompileInputs.cache
